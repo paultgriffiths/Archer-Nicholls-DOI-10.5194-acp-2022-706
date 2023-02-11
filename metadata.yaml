@@ -1,0 +1,71 @@
+{
+  "title": "UKESM1 output following the CMIP6 SSP1-26 ScenarioMIP experiment protocol",
+  "description": "Model output for experiments described in Archer-Nicholls et al. DOI:10.5194/acp-2022-706.  The experiments target the controlling factors for the gas phase nitrate (NO3) radical species, focusing on CMIP6 CMIP and ScenarioMIP experiments which have already been uploaded to BADC and the Earth System Federation Grid (historical data are available via DOI:10.22033/ESGF/CMIP6.6113 and ScenarioMIP data via DOI:10.22033/ESGF/CMIP6.1567) and we provide here additional diagnostic output for these reference datasets/experiments, necessary to reproduce the figures in Archer-Nicholls et al.  The analysis in Archer-Nicholls et al.  uses the CMIP Historical experiment, described in Eyring et al. (2016) (DOI:10.5194/gmd-9-1937-2016 and ScenarioMIP SSP1-26, SSP2-45, SSP3-70 and SSP5-85 experiments described in O'Neill et al. (2016) (DOI:10.5194/gmd-9-3461-2016), with emissions given in Gidden et al.(2018)  (DOI::10.5194/gmd2018-266).  The data presented here are from experiments using UKESM1 described in Sellar et al. (2019) (DOI:10.1029/2019MS001739) run on UK supercomputing platform MONSooN.  Data from five experiments are included here: ScenarioMIP SSP1-2.6 (ssp126), SSP2-4.5 (ssp245), SSP3-7.0 (ssp370), SSP5-8.5(ssp585) experiments and the CMIP Historical experiment (hist).  For the ScenarioMIP experients, data are archived for the years 2090-2094 inclusive.  For the CMIP Historical experiment, data are archived for the years 1850-1854 inclusive.   The data comprise monthly mean output from both environmental variables, tracer mass mixing ratio and chemical reaction tendencies in moles per gridbox per second so as to be able levels of the nitrate radical and its principal chemical sinks consistent with the analysis in Archer-Nicholls et al.  Other relevant data may be found in the CMIP6 archive for CMIP and ScenarioMIP hosted at BADC and at the Earth System Federation Grid",
+  "authors": [
+    {
+      "firstname": "Scott",
+      "surname": "Archer-Nicholls"
+    },
+    {
+      "firstname": "Rachel",
+      "surname": "Allen"
+    },
+    {
+      "firstname": "Youngsub",
+      "surname": "Shin"
+    },
+    {
+      "firstname": "Luke",
+      "surname": "Abraham"
+    },
+    {
+      "firstname": "Paul",
+      "surname": "Griffiths"
+    },
+    {
+      "firstname": "Alex",
+      "surname": "Archibald"
+    }    
+  ],
+  "bbox": {
+    "north": "90",
+    "south": "-90°",
+    "east": "180.0000°",
+    "west": "-180.0000°"
+  },
+  "time_range": {
+    "start": "2090-01-01T00:00:00",
+    "end": "2094-12-30T23:59:59"
+  },
+  "lineage": "Data were generated using the Met Office Unified Model (UM) at N96 horizontal resolution over global domain.",
+  "quality": "Data are as given by the data provider, no quality control has been performed by the Centre for Environmental Data Analysis (CEDA)",
+  "docs": [
+    {
+      "title": "",
+      "url": ""
+    }
+  ],
+  "project": {
+    "catalogue_url": "",
+    "title": "PROMOTE",
+    "description": "PROMOTE was a NERC funded project",
+    "PI": {
+      "firstname": "Alexander",
+      "lastname": "Archibald"
+    },
+    "funder": "NERC",
+    "grant_number": "NE/P016391/1"
+  },
+  "instrument": {
+    "catalogue_url": "",
+    "title": "",
+    "description": ""
+  },
+  "computation": {
+    "catalogue_url": "",
+    "title": "Met Office operational unified model (UM) deployed on ARCHER2 and MONSooN computer",
+    "description": "Met Office operational unified model (UM) deployed on ARCHER2 and MONSooN computer"
+  }
+}
+
+
